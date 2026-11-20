@@ -1,0 +1,23 @@
+# сборка помощника
+host/dist/
+host/build/
+*.spec
+__pycache__/
+*.pyc
+# подпись и упаковка расширения
+signed/
+web-ext-artifacts/
+*.xpi
+out/
+# секреты и бинарники, которые не должны попасть в репозиторий
+amo.cred
+.env
+yt-dlp.exe
+ffmpeg.exe
+ffprobe.exe
+node_modules/
+# мусор ОС и редакторов
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
